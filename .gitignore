@@ -1,0 +1,13 @@
+/.srv/*
+# exceptions
+!/.srv/custom.ini
+
+/plugins/*
+# exceptions
+!/plugins/.gitkeep
+
+/themes/*
+# exceptions
+!/themes/.gitkeep
+!/themes/gameshop/
+!/themes/gameshop/**
