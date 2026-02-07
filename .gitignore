@@ -5,6 +5,8 @@
 /plugins/*
 # exceptions
 !/plugins/.gitkeep
+!/plugins/core-gameshop/
+!/plugins/blocks-gameshop/
 
 /themes/*
 # exceptions
