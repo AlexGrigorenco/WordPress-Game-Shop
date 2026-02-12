@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "blocks-gameshop/block-header",
+	"version": "0.1.0",
+	"title": "Header",
+	"category": "gameshop",
+	"icon": "layout",
+	"description": "Site header block.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"memberLink": {
+			"type": "string",
+			"default": ""
+		},
+		"cartLink": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "blocks-gameshop",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
